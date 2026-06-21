@@ -1,0 +1,25 @@
+{
+  "name": "sahil-aayushi-wedding",
+  "version": "1.0.0",
+  "description": "Beautiful, interactive wedding invitation website for Sahil & Aayushi",
+  "author": "Sahil & Aayushi",
+  "license": "MIT",
+  "keywords": [
+    "wedding",
+    "invitation",
+    "rsvp",
+    "engagement",
+    "celebration"
+  ],
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "serve": "npx http-server",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "python": "^0.0.4"
+  }
+}
